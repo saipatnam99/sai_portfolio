@@ -9,8 +9,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex
-      justify-between items-center">
+      <div className="bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-bold primary-color ml-4">SAI PATNAM</h1>
         <ul className="hidden md:flex">
           <li className="p-5">
