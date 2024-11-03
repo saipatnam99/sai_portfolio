@@ -4,6 +4,7 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import tailwind from '../assets/tailwind.png'
 import react from '../assets/react.png'
+import mongodb from '../assets/mongodb.jpg'
 const Skills = () => {
   return (
     <div className='border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center sm:flex sm:flex-cols-2'>
@@ -28,6 +29,10 @@ const Skills = () => {
         <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]'>
         <img src={tailwind} alt="tailwind" height={100} width={100} />
         <p className='mt-2'>Tailwind</p>
+        </div>
+        <div className='flex flex-col items-center m-4 sm:my-0 w-[80px] md:w-[100px]'>
+        <img src={mongodb} alt="mongodb" height={100} width={100} />
+        <p className='mt-2'>MongoDB</p>
         </div>
     </div>
   )
