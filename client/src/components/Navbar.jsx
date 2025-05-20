@@ -21,6 +21,10 @@ const Navbar = () => {
           <li className="p-5">
             <a href="#contact">Contact</a>
           </li>
+          <li className="p-5 hover:text-blue-500">
+            <a href="/"> 7093849229</a>
+           
+          </li>
         </ul>
 
         <div onClick={handleNav} className="block md:hidden mr-6">
